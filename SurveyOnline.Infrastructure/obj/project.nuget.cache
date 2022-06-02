@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0OP2MHmctvPWuj6xkAHFxImoED1RfoFewmWIS82ry9tFLfUc/XiwdOa3k5UNTm90ifDEJGebrMs8LfBo0PmJ8w==",
+  "dgSpecHash": "DxQF7jNTK1XXTyWGxBCf8tChoAXCwrY79yTS8ew/wpldZ6jIxB5XeiZTub+TXXCa94Xp6NtB/rMDFJJuyZqU0w==",
   "success": true,
-  "projectFilePath": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\Api\\SurveyOnline.Infrastructure\\SurveyOnline.Infrastructure.csproj",
+  "projectFilePath": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\git\\blog-api\\SurveyOnline.Infrastructure\\SurveyOnline.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.12\\microsoft.aspnetcore.cryptography.internal.5.0.12.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.12\\microsoft.aspnetcore.cryptography.keyderivation.5.0.12.nupkg.sha512",

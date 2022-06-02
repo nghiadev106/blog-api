@@ -18,9 +18,9 @@ namespace SurveyOnline.API.Controllers
         [HttpGet("home")]
         public IActionResult GetHome()
         {
-            var lstTopBlogs = _context.Blogs.Take(5).ToList();
-            var topVideo = _context.Videos.Where(x=>x.IsHot==true).FirstOrDefault();
-            var topNewVideo= _context.Videos.Where(x => x.IsNew == true).FirstOrDefault();
+            var lstTopBlogs = _context.Blogs.Take(5).OrderByDescending(x => x.CreateDate).ToList();
+            var topVideo = _context.Videos.Where(x=>x.IsHot==true).OrderByDescending(x => x.CreateDate).FirstOrDefault();
+            var topNewVideo= _context.Videos.Where(x => x.IsNew == true).OrderByDescending(x => x.CreateDate).FirstOrDefault();
             var videos = _context.Videos.ToList();
             if (topVideo != null)
             {
@@ -29,7 +29,7 @@ namespace SurveyOnline.API.Controllers
             videos = videos.OrderBy(x => x.CreateDate).Take(3).ToList();
 
             var topNewFeed = _context.Blogs.Where(x => x.IsNew == true).FirstOrDefault();
-            var blogs = _context.Blogs.Where(x => x.Id != topNewFeed.Id).Take(10).ToList();
+            var blogs = _context.Blogs.Where(x => x.Id != topNewFeed.Id).OrderByDescending(x => x.CreateDate).Take(10).ToList();
 
             return Ok(new
             {
@@ -46,10 +46,10 @@ namespace SurveyOnline.API.Controllers
         public IActionResult GetDetail(int id)
         {
             var detail = _context.Blogs.Where(x => x.Id == id).SingleOrDefault();
-            var lstTopBlogs = _context.Blogs.Where(x => x.Id !=detail.Id).Take(5).ToList();
+            var lstTopBlogs = _context.Blogs.Where(x => x.Id !=detail.Id).OrderByDescending(x => x.CreateDate).Take(5).ToList();
             var topReated= _context.Blogs.Where(x => x.Id != id).FirstOrDefault();
-            var related= _context.Blogs.Where(x => x.Id != detail.Id && x.Id!=topReated.Id && x.CategoryId==detail.CategoryId).Take(4).ToList();
-            var lstByCategory= _context.Blogs.Where(x => x.Id != detail.Id && x.CategoryId == detail.CategoryId).OrderBy(x=>x.CreateDate).Take(12).ToList();
+            var related= _context.Blogs.Where(x => x.Id != detail.Id && x.Id!=topReated.Id && x.CategoryId==detail.CategoryId).OrderByDescending(x => x.CreateDate).Take(4).ToList();
+            var lstByCategory= _context.Blogs.Where(x => x.Id != detail.Id && x.CategoryId == detail.CategoryId).OrderBy(x=>x.CreateDate).OrderByDescending(x => x.CreateDate).Take(12).ToList();
 
             return Ok(new
             {
@@ -65,7 +65,7 @@ namespace SurveyOnline.API.Controllers
         public IActionResult GetByCategory(int id,int pageSize)
         {
             var bigBlog = _context.Blogs.Where(x => x.CategoryId == id).FirstOrDefault();
-            var blogs = _context.Blogs.Where(x=>x.CategoryId==id).ToList();
+            var blogs = _context.Blogs.Where(x=>x.CategoryId==id).OrderByDescending(x => x.CreateDate).ToList();
 
             if (bigBlog != null)
             {
@@ -75,7 +75,7 @@ namespace SurveyOnline.API.Controllers
             return Ok(new
             {
                 bigBlog = bigBlog,
-                blogs = blogs.Take(pageSize).ToList(),
+                blogs = blogs.Take(pageSize).OrderByDescending(x => x.CreateDate).ToList(),
                 totalCount=_context.Blogs.Where(x => x.CategoryId == id).ToList().Count(),
                 //categoryName = _context.BlogCategories.Where(x => x.Id == id).SingleOrDefault().Name
             }) ;
@@ -86,7 +86,7 @@ namespace SurveyOnline.API.Controllers
         {
             var bigVideo = _context.Videos.Where(x => x.IsHot==true&x.IsNew==true).FirstOrDefault();
             var topVideo = _context.Videos.Where(x => x.IsHot == true & x.IsNew == true&& x.Id != bigVideo.Id).FirstOrDefault();
-            var videos= _context.Videos.ToList();
+            var videos= _context.Videos.OrderByDescending(x => x.CreateDate).ToList();
             if (bigVideo != null)
             {
                 videos = videos.Where(x => x.Id != bigVideo.Id).ToList();

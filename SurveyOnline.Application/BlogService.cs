@@ -55,7 +55,7 @@ namespace SurveyOnline.Application
             if (categoryId.HasValue)
                 query = query.Where(x => x.CategoryId == categoryId.Value);
 
-            return query;
+            return query.OrderByDescending(x=>x.CreateDate).ToList();
         }
 
         public async Task<Blog> GetById(int id)

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HkVqI0b1ToBMNDWLs29XSbeWHeseLnQ/dOlxGuKZ9V4iqhnLwxpbvdyJ7y/VJyKBIkAZb0yWEfqnt1B9lqoc/Q==",
+  "dgSpecHash": "cYkeUZrz2rTnUWHwYpgTKNXwHHv/lG12gI5UIX1AcWfuNqvDRfvCliB+sprkVtBtAsfChmpZ9tAHVkuL7gDxdA==",
   "success": true,
-  "projectFilePath": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\Api\\SurveyOnline.EntityFrameworkCore\\SurveyOnline.EntityFrameworkCore.csproj",
+  "projectFilePath": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\git\\blog-api\\SurveyOnline.EntityFrameworkCore\\SurveyOnline.EntityFrameworkCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.12\\microsoft.aspnetcore.cryptography.internal.5.0.12.nupkg.sha512",

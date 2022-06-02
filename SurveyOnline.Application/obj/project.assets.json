@@ -6120,11 +6120,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\Api\\SurveyOnline.Application\\SurveyOnline.Application.csproj",
+      "projectUniqueName": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\git\\blog-api\\SurveyOnline.Application\\SurveyOnline.Application.csproj",
       "projectName": "SurveyOnline.Application",
-      "projectPath": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\Api\\SurveyOnline.Application\\SurveyOnline.Application.csproj",
+      "projectPath": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\git\\blog-api\\SurveyOnline.Application\\SurveyOnline.Application.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\Api\\SurveyOnline.Application\\obj\\",
+      "outputPath": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\git\\blog-api\\SurveyOnline.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6144,11 +6144,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\Api\\SurveyOnline.Infrastructure\\SurveyOnline.Infrastructure.csproj": {
-              "projectPath": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\Api\\SurveyOnline.Infrastructure\\SurveyOnline.Infrastructure.csproj"
+            "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\git\\blog-api\\SurveyOnline.Infrastructure\\SurveyOnline.Infrastructure.csproj": {
+              "projectPath": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\git\\blog-api\\SurveyOnline.Infrastructure\\SurveyOnline.Infrastructure.csproj"
             },
-            "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\Api\\SurveyOnline.Shared\\SurveyOnline.Shared.csproj": {
-              "projectPath": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\Api\\SurveyOnline.Shared\\SurveyOnline.Shared.csproj"
+            "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\git\\blog-api\\SurveyOnline.Shared\\SurveyOnline.Shared.csproj": {
+              "projectPath": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\git\\blog-api\\SurveyOnline.Shared\\SurveyOnline.Shared.csproj"
             }
           }
         }

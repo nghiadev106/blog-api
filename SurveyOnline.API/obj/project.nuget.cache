@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "x2Nlkz/CGUbd+mSM5+s3PPj5RigHT8oMRO+T5H8TKBLsyayJdXTVkXdU8JNK+0uEyUHo/Pmt9FgAGpbrPaMAxA==",
+  "dgSpecHash": "gb/thv25Q5zZ6ZdbXxJvv6z3QLx81AjR+Umwu2fLylb4ArWR8VSY3hbWd1thp+3Ptb2L/nq5sFhN+Kcrano6hw==",
   "success": true,
-  "projectFilePath": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\Api\\SurveyOnline.API\\SurveyOnline.API.csproj",
+  "projectFilePath": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\git\\blog-api\\SurveyOnline.API\\SurveyOnline.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

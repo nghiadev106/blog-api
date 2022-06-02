@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\Api\\SurveyOnline.Application\\SurveyOnline.Application.csproj": {}
+    "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\git\\blog-api\\SurveyOnline.Application\\SurveyOnline.Application.csproj": {}
   },
   "projects": {
-    "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\Api\\SurveyOnline.Application\\SurveyOnline.Application.csproj": {
+    "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\git\\blog-api\\SurveyOnline.Application\\SurveyOnline.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\Api\\SurveyOnline.Application\\SurveyOnline.Application.csproj",
+        "projectUniqueName": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\git\\blog-api\\SurveyOnline.Application\\SurveyOnline.Application.csproj",
         "projectName": "SurveyOnline.Application",
-        "projectPath": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\Api\\SurveyOnline.Application\\SurveyOnline.Application.csproj",
+        "projectPath": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\git\\blog-api\\SurveyOnline.Application\\SurveyOnline.Application.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\Api\\SurveyOnline.Application\\obj\\",
+        "outputPath": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\git\\blog-api\\SurveyOnline.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,11 +31,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\Api\\SurveyOnline.Infrastructure\\SurveyOnline.Infrastructure.csproj": {
-                "projectPath": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\Api\\SurveyOnline.Infrastructure\\SurveyOnline.Infrastructure.csproj"
+              "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\git\\blog-api\\SurveyOnline.Infrastructure\\SurveyOnline.Infrastructure.csproj": {
+                "projectPath": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\git\\blog-api\\SurveyOnline.Infrastructure\\SurveyOnline.Infrastructure.csproj"
               },
-              "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\Api\\SurveyOnline.Shared\\SurveyOnline.Shared.csproj": {
-                "projectPath": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\Api\\SurveyOnline.Shared\\SurveyOnline.Shared.csproj"
+              "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\git\\blog-api\\SurveyOnline.Shared\\SurveyOnline.Shared.csproj": {
+                "projectPath": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\git\\blog-api\\SurveyOnline.Shared\\SurveyOnline.Shared.csproj"
               }
             }
           }
@@ -68,14 +68,14 @@
         }
       }
     },
-    "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\Api\\SurveyOnline.EntityFrameworkCore\\SurveyOnline.EntityFrameworkCore.csproj": {
+    "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\git\\blog-api\\SurveyOnline.EntityFrameworkCore\\SurveyOnline.EntityFrameworkCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\Api\\SurveyOnline.EntityFrameworkCore\\SurveyOnline.EntityFrameworkCore.csproj",
+        "projectUniqueName": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\git\\blog-api\\SurveyOnline.EntityFrameworkCore\\SurveyOnline.EntityFrameworkCore.csproj",
         "projectName": "SurveyOnline.EntityFrameworkCore",
-        "projectPath": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\Api\\SurveyOnline.EntityFrameworkCore\\SurveyOnline.EntityFrameworkCore.csproj",
+        "projectPath": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\git\\blog-api\\SurveyOnline.EntityFrameworkCore\\SurveyOnline.EntityFrameworkCore.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\Api\\SurveyOnline.EntityFrameworkCore\\obj\\",
+        "outputPath": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\git\\blog-api\\SurveyOnline.EntityFrameworkCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -155,14 +155,14 @@
         }
       }
     },
-    "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\Api\\SurveyOnline.Infrastructure\\SurveyOnline.Infrastructure.csproj": {
+    "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\git\\blog-api\\SurveyOnline.Infrastructure\\SurveyOnline.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\Api\\SurveyOnline.Infrastructure\\SurveyOnline.Infrastructure.csproj",
+        "projectUniqueName": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\git\\blog-api\\SurveyOnline.Infrastructure\\SurveyOnline.Infrastructure.csproj",
         "projectName": "SurveyOnline.Infrastructure",
-        "projectPath": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\Api\\SurveyOnline.Infrastructure\\SurveyOnline.Infrastructure.csproj",
+        "projectPath": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\git\\blog-api\\SurveyOnline.Infrastructure\\SurveyOnline.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\Api\\SurveyOnline.Infrastructure\\obj\\",
+        "outputPath": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\git\\blog-api\\SurveyOnline.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -182,11 +182,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\Api\\SurveyOnline.EntityFrameworkCore\\SurveyOnline.EntityFrameworkCore.csproj": {
-                "projectPath": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\Api\\SurveyOnline.EntityFrameworkCore\\SurveyOnline.EntityFrameworkCore.csproj"
+              "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\git\\blog-api\\SurveyOnline.EntityFrameworkCore\\SurveyOnline.EntityFrameworkCore.csproj": {
+                "projectPath": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\git\\blog-api\\SurveyOnline.EntityFrameworkCore\\SurveyOnline.EntityFrameworkCore.csproj"
               },
-              "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\Api\\SurveyOnline.Shared\\SurveyOnline.Shared.csproj": {
-                "projectPath": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\Api\\SurveyOnline.Shared\\SurveyOnline.Shared.csproj"
+              "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\git\\blog-api\\SurveyOnline.Shared\\SurveyOnline.Shared.csproj": {
+                "projectPath": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\git\\blog-api\\SurveyOnline.Shared\\SurveyOnline.Shared.csproj"
               }
             }
           }
@@ -225,14 +225,14 @@
         }
       }
     },
-    "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\Api\\SurveyOnline.Shared\\SurveyOnline.Shared.csproj": {
+    "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\git\\blog-api\\SurveyOnline.Shared\\SurveyOnline.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\Api\\SurveyOnline.Shared\\SurveyOnline.Shared.csproj",
+        "projectUniqueName": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\git\\blog-api\\SurveyOnline.Shared\\SurveyOnline.Shared.csproj",
         "projectName": "SurveyOnline.Shared",
-        "projectPath": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\Api\\SurveyOnline.Shared\\SurveyOnline.Shared.csproj",
+        "projectPath": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\git\\blog-api\\SurveyOnline.Shared\\SurveyOnline.Shared.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\Api\\SurveyOnline.Shared\\obj\\",
+        "outputPath": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\git\\blog-api\\SurveyOnline.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

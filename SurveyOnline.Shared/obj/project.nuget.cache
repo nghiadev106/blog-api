@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yj2GgKKo+7Tg1GHEkkLAFlxa89lCr9HtxP5Dtf6bavd96Sxy9Bvm/6521QYB83DuFbVI6+eadRqR18mkVkpthQ==",
+  "dgSpecHash": "OwtaYcUhALg32rD4pPRIQ61RaL/D3ZeMzOGp0+Dow9BNfAZsfoj55lU9/dq23brdQlsBThHFVgW3biXpWJpfXQ==",
   "success": true,
-  "projectFilePath": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\Api\\SurveyOnline.Shared\\SurveyOnline.Shared.csproj",
+  "projectFilePath": "D:\\nghia\\DoAnTotNghiep2022\\Duyen\\git\\blog-api\\SurveyOnline.Shared\\SurveyOnline.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

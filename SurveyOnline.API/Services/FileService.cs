@@ -6,7 +6,7 @@ namespace SurveyOnline.API.Services
 {
     public class FileService
     {
-        private string _path= @"D:\\nghia\\DoAnTotNghiep2022\\Duyen\\Api\\SurveyOnline.API\\wwwroot\\Uploads";
+        private string _path= @"D:\nghia\DoAnTotNghiep2022\Duyen\git\blog-api\SurveyOnline.API\wwwroot\Uploads";
 
         public string SaveFileFromBase64String(string RelativePathFileName, string dataFromBase64String)
         {
