@@ -1,0 +1,71 @@
+﻿using Blog.Application.Interfaces;
+using Blog.EntityFrameworkCore;
+using Blog.EntityFrameworkCore.Models;
+using Blog.Infrastructure.Infrastructure;
+using Blog.Infrastructure.Repositories.Interfaces;
+using Blog.Shared.Answers;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Blog.Application
+{
+    public class AnswerService:IAnswerService
+    {
+        private IAnswerRepository _answerRepository;
+        private IUnitOfWork _unitOfWork;
+
+        public AnswerService(IAnswerRepository AnswerRepository, IUnitOfWork unitOfWork)
+        {
+            _answerRepository = AnswerRepository;
+            _unitOfWork = unitOfWork;
+        }
+
+        public async Task<int> Add(AnswerCreateRequest request)
+        {
+            Answer answer = new Answer();
+            answer.QuestionId = request.QuestionId;
+            answer.Content = request.Content;
+            await _answerRepository.Add(answer);
+            var result = await _answerRepository.Commit();
+            return result;
+        }
+
+        public async Task<int> Delete(Answer answer)
+        {
+            _answerRepository.Delete(answer);
+            var result = await _answerRepository.Commit();
+            return result;
+        }
+
+        public async Task<IEnumerable<Answer>> GetAll()
+        {
+            return await _answerRepository.GetAll();
+        }
+
+        public async Task<IEnumerable<Answer>> GetAnswerByQuestionId(int questionId)
+        {
+            var answers = await _answerRepository.GetAnswerByQuestionId(questionId);
+            return answers;
+        }
+
+        public async Task<Answer> GetById(int id)
+        {
+            return await _answerRepository.GetById(id);
+        }
+
+        public void Save()
+        {
+            _unitOfWork.Commit();
+        }
+
+        public async Task<int> Update(Answer request)
+        {
+            await _answerRepository.Update(request);
+            var result = await _answerRepository.Commit();
+            return result;
+        }
+    }
+}

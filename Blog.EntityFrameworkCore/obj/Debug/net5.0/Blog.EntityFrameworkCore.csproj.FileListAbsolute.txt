@@ -1,0 +1,14 @@
+D:\nghia\DoAnTotNghiep2022\Duyen\git\blog-api\Blog.EntityFrameworkCore\bin\Debug\net5.0\Blog.EntityFrameworkCore.deps.json
+D:\nghia\DoAnTotNghiep2022\Duyen\git\blog-api\Blog.EntityFrameworkCore\bin\Debug\net5.0\Blog.EntityFrameworkCore.runtimeconfig.json
+D:\nghia\DoAnTotNghiep2022\Duyen\git\blog-api\Blog.EntityFrameworkCore\bin\Debug\net5.0\Blog.EntityFrameworkCore.runtimeconfig.dev.json
+D:\nghia\DoAnTotNghiep2022\Duyen\git\blog-api\Blog.EntityFrameworkCore\bin\Debug\net5.0\Blog.EntityFrameworkCore.dll
+D:\nghia\DoAnTotNghiep2022\Duyen\git\blog-api\Blog.EntityFrameworkCore\bin\Debug\net5.0\ref\Blog.EntityFrameworkCore.dll
+D:\nghia\DoAnTotNghiep2022\Duyen\git\blog-api\Blog.EntityFrameworkCore\bin\Debug\net5.0\Blog.EntityFrameworkCore.pdb
+D:\nghia\DoAnTotNghiep2022\Duyen\git\blog-api\Blog.EntityFrameworkCore\obj\Debug\net5.0\Blog.EntityFrameworkCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\nghia\DoAnTotNghiep2022\Duyen\git\blog-api\Blog.EntityFrameworkCore\obj\Debug\net5.0\Blog.EntityFrameworkCore.AssemblyInfoInputs.cache
+D:\nghia\DoAnTotNghiep2022\Duyen\git\blog-api\Blog.EntityFrameworkCore\obj\Debug\net5.0\Blog.EntityFrameworkCore.AssemblyInfo.cs
+D:\nghia\DoAnTotNghiep2022\Duyen\git\blog-api\Blog.EntityFrameworkCore\obj\Debug\net5.0\Blog.EntityFrameworkCore.csproj.CoreCompileInputs.cache
+D:\nghia\DoAnTotNghiep2022\Duyen\git\blog-api\Blog.EntityFrameworkCore\obj\Debug\net5.0\Blog.EntityFrameworkCore.dll
+D:\nghia\DoAnTotNghiep2022\Duyen\git\blog-api\Blog.EntityFrameworkCore\obj\Debug\net5.0\ref\Blog.EntityFrameworkCore.dll
+D:\nghia\DoAnTotNghiep2022\Duyen\git\blog-api\Blog.EntityFrameworkCore\obj\Debug\net5.0\Blog.EntityFrameworkCore.pdb
+D:\nghia\DoAnTotNghiep2022\Duyen\git\blog-api\Blog.EntityFrameworkCore\obj\Debug\net5.0\Blog.EntityFrameworkCore.genruntimeconfig.cache

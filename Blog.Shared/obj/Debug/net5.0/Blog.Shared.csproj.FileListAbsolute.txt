@@ -1,0 +1,11 @@
+D:\nghia\DoAnTotNghiep2022\Duyen\git\blog-api\Blog.Shared\bin\Debug\net5.0\Blog.Shared.deps.json
+D:\nghia\DoAnTotNghiep2022\Duyen\git\blog-api\Blog.Shared\bin\Debug\net5.0\Blog.Shared.dll
+D:\nghia\DoAnTotNghiep2022\Duyen\git\blog-api\Blog.Shared\bin\Debug\net5.0\ref\Blog.Shared.dll
+D:\nghia\DoAnTotNghiep2022\Duyen\git\blog-api\Blog.Shared\bin\Debug\net5.0\Blog.Shared.pdb
+D:\nghia\DoAnTotNghiep2022\Duyen\git\blog-api\Blog.Shared\obj\Debug\net5.0\Blog.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\nghia\DoAnTotNghiep2022\Duyen\git\blog-api\Blog.Shared\obj\Debug\net5.0\Blog.Shared.AssemblyInfoInputs.cache
+D:\nghia\DoAnTotNghiep2022\Duyen\git\blog-api\Blog.Shared\obj\Debug\net5.0\Blog.Shared.AssemblyInfo.cs
+D:\nghia\DoAnTotNghiep2022\Duyen\git\blog-api\Blog.Shared\obj\Debug\net5.0\Blog.Shared.csproj.CoreCompileInputs.cache
+D:\nghia\DoAnTotNghiep2022\Duyen\git\blog-api\Blog.Shared\obj\Debug\net5.0\Blog.Shared.dll
+D:\nghia\DoAnTotNghiep2022\Duyen\git\blog-api\Blog.Shared\obj\Debug\net5.0\ref\Blog.Shared.dll
+D:\nghia\DoAnTotNghiep2022\Duyen\git\blog-api\Blog.Shared\obj\Debug\net5.0\Blog.Shared.pdb
